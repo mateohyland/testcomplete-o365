@@ -466,7 +466,7 @@
 				<column type="5" enabled="True" />
 			</columns>
 			<data>
-				<row val0="True" val1="*" />
+				<row val0="False" val1="*" />
 				<row val0="True" val1="DirectUIHWND" />
 				<row val0="True" val1="Windows.UI.Core.CoreWindow" />
 			</data>
