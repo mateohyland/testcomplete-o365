@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{DA6D7EF7-5B05-4735-AAF0-A85E47D47989}" version="15.0">
+	<children>
+		<child name="NetUIHWND" key="{6714B14F-4C74-43EE-8CE2-E8A2E320E8C2}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="15.0" caption="NetUIHWND" ID="{6714B14F-4C74-43EE-8CE2-E8A2E320E8C2}" FileName="Regions\NetUIHWND.png" Update="False" />
+		</child>
+		<child name="NetUIHWND1" key="{9742B006-D194-4812-85F1-2E72FF3AC422}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="15.0" caption="NetUIHWND1" ID="{9742B006-D194-4812-85F1-2E72FF3AC422}" FileName="Regions\NetUIHWND1.png" Update="False" />
+		</child>
+		<child name="NetUIHWND2" key="{97D08085-5E37-4745-B3AF-76651AC5E1DC}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="15.0" caption="NetUIHWND2" ID="{97D08085-5E37-4745-B3AF-76651AC5E1DC}" FileName="Regions\NetUIHWND2.png" Update="False" />
+		</child>
+		<child name="NetUIHWND3" key="{4AED9987-368B-40C9-A115-29AE7949DE41}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="15.0" caption="NetUIHWND3" ID="{4AED9987-368B-40C9-A115-29AE7949DE41}" FileName="Regions\NetUIHWND3.png" Update="False" />
+		</child>
+		<child name="NetUIHWND4" key="{D57CEC5F-221D-4B37-979B-C8B31CAEA56C}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="15.0" caption="NetUIHWND4" ID="{D57CEC5F-221D-4B37-979B-C8B31CAEA56C}" FileName="Regions\NetUIHWND4.png" Update="False" />
+		</child>
+	</children>
+</Root>

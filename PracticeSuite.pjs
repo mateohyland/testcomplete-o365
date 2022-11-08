@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}" version="15.0" key="{9021B6CC-DA63-4E36-BF80-B004892F9FB5}">
+	<children>
+		<child name="0365Project" key="{2871BAA6-769D-4A6F-AD24-40E4E22F3549}" path="O365Project\0365Project.mds" />
+	</children>
+	<testItems key="{17C11B45-8670-4982-85C2-44E066A1F937}">
+		<children>
+			<testItem key="{2871BAA6-769D-4A6F-AD24-40E4E22F3549}" enabled="True" timeout="0" stopOnError="True" description="" />
+		</children>
+	</testItems>
+	<variables key="{4087728A-3F0C-4EFF-945A-2835F66BABD9}" />
+	<analysis key="{3EE29756-45AD-443B-9067-C455C7A9F920}" />
+	<scc key="{C900492B-D218-429C-9AA0-264B7D78CA88}" name="Git Plugin">
+		<data />
+	</scc>
+</Root>
