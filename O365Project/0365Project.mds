@@ -10,6 +10,11 @@
 	<config language="{90F89436-9452-4F95-9882-6B5210079F13}" />
 	<testItems key="{0A85537C-70F2-44A4-9AAA-775E57B30C45}" version="14">
 		<children>
+			<testItem name="assignNames" key="{DD5E6883-E425-432E-A99C-F617CA2D0B53}" group="False" parallel="False" enabled="True" testMoniker="{3E5194A3-4F35-4187-AA06-877BF11E6C08}assignNames" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<environments activeCloud="SWT" />
+				<children />
+			</testItem>
 			<testItem name="MicrosoftWord" key="{6797E770-5BE9-4023-9D5C-356A25711CD0}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<children>
@@ -85,7 +90,7 @@
 					</testItem>
 				</children>
 			</testItem>
-			<testItem name="Outlook" key="{388F0910-B467-47E6-9F44-ACA744A2FEE2}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+			<testItem name="Outlook" key="{388F0910-B467-47E6-9F44-ACA744A2FEE2}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<children>
 					<testItem name="LaunchOutlook" key="{0D959E43-D329-49AC-9507-6788AB31876F}" group="False" parallel="False" enabled="True" testMoniker="KDT\{6D1E881E-EED7-48F3-ADFB-8A4480D8A75D}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
@@ -120,6 +125,18 @@
 					<DefValue StrValue="This is a test document." />
 				</Variable>
 				<Variable Name="pdfPrintedDocumentName" Type="String" Local="False">
+					<DefValue StrValue="PrintedPDFDocument" />
+				</Variable>
+				<Variable Name="DOCUMENT_NAME" Type="String" Local="True">
+					<DefValue StrValue="TestDocument" />
+				</Variable>
+				<Variable Name="PDF_NAME" Type="String" Local="True">
+					<DefValue StrValue="TestPDFDocument" />
+				</Variable>
+				<Variable Name="TEXT_SAMPLE" Type="String" Local="True">
+					<DefValue StrValue="This is a test document." />
+				</Variable>
+				<Variable Name="PDF_PRINTED_DOCUMENT_NAME" Type="String" Local="True">
 					<DefValue StrValue="PrintedPDFDocument" />
 				</Variable>
 			</Items>
