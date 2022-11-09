@@ -2,21 +2,21 @@
 <Root signature="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" version="15.0">
 	<children>
 		<folder name="Word">
-			<child name="LaunchWord" key="{97254A55-1B50-46D2-8F9C-3014CE987A7E}" path="LaunchWord.tcKDTest" />
-			<child name="CloseWord" key="{A984BAF8-20E6-4998-B488-A67E7F1B7DBC}" path="CloseWord.tcKDTest" />
-			<child name="SaveDocument" key="{A064BE5A-2D78-4B10-9BE8-C7B519967357}" path="SaveDocument.tcKDTest" />
-			<child name="CreateDocument" key="{B5A5F594-5FA9-4EE8-87AE-B6E62C66421F}" path="CreateDocument.tcKDTest" />
-			<child name="PrintToPDF" key="{CAFBBFDC-85DE-4C89-9B70-F55CC53CF172}" path="PrintToPDF.tcKDTest" />
-			<child name="OpenDocument" key="{3E220050-CBAF-47E8-9050-4F651F926BD7}" path="OpenDocument.tcKDTest" />
-			<child name="GoToMenu" key="{CB62380C-9EA9-4F21-82AC-B1B7C1BF8E8D}" path="GoToMenu.tcKDTest" />
-			<child name="TypeText" key="{15BFB8DB-D0ED-459C-BBAF-C62AB5769978}" path="TypeText.tcKDTest" />
-			<child name="SaveAsPDF" key="{F11BE75A-9870-4C62-8349-4CFC06E7CD0C}" path="SaveAsPDF.tcKDTest" />
-			<child name="ReturnToMenu" key="{386EB9C9-0E31-4EDB-A2F5-3D3B346487F9}" path="ReturnToMenu.tcKDTest" />
+			<child name="Word_LaunchApp" key="{97254A55-1B50-46D2-8F9C-3014CE987A7E}" path="Word_LaunchApp.tcKDTest" />
+			<child name="Word_CloseApp" key="{A984BAF8-20E6-4998-B488-A67E7F1B7DBC}" path="Word_CloseApp.tcKDTest" />
+			<child name="Word_SaveDocument" key="{A064BE5A-2D78-4B10-9BE8-C7B519967357}" path="Word_SaveDocument.tcKDTest" />
+			<child name="Word_CreateDocument" key="{B5A5F594-5FA9-4EE8-87AE-B6E62C66421F}" path="Word_CreateDocument.tcKDTest" />
+			<child name="Word_PrintToPDF" key="{CAFBBFDC-85DE-4C89-9B70-F55CC53CF172}" path="Word_PrintToPDF.tcKDTest" />
+			<child name="Word_OpenDocument" key="{3E220050-CBAF-47E8-9050-4F651F926BD7}" path="Word_OpenDocument.tcKDTest" />
+			<child name="Word_GoToMenu" key="{CB62380C-9EA9-4F21-82AC-B1B7C1BF8E8D}" path="Word_GoToMenu.tcKDTest" />
+			<child name="Word_TypeText" key="{15BFB8DB-D0ED-459C-BBAF-C62AB5769978}" path="Word_TypeText.tcKDTest" />
+			<child name="Word_SaveAsPDF" key="{F11BE75A-9870-4C62-8349-4CFC06E7CD0C}" path="Word_SaveAsPDF.tcKDTest" />
+			<child name="Word_ReturnToMenu" key="{386EB9C9-0E31-4EDB-A2F5-3D3B346487F9}" path="Word_ReturnToMenu.tcKDTest" />
 		</folder>
 		<folder name="Outlook">
-			<child name="LaunchOutlook" key="{6D1E881E-EED7-48F3-ADFB-8A4480D8A75D}" path="LaunchOutlook.tcKDTest" />
-			<child name="CloseOutlook" key="{49896860-FF62-4F3D-967D-ABAE485F6A8A}" path="CloseOutlook.tcKDTest" />
-			<child name="SendEmail" key="{CAA8E6DE-9857-477E-A04F-3A44EE0AD8F8}" path="SendEmail.tcKDTest" />
+			<child name="Outlook_LaunchApp" key="{6D1E881E-EED7-48F3-ADFB-8A4480D8A75D}" path="Outlook_LaunchApp.tcKDTest" />
+			<child name="Outlook_CloseApp" key="{49896860-FF62-4F3D-967D-ABAE485F6A8A}" path="Outlook_CloseApp.tcKDTest" />
+			<child name="Outlook_SendEmail" key="{CAA8E6DE-9857-477E-A04F-3A44EE0AD8F8}" path="Outlook_SendEmail.tcKDTest" />
 		</folder>
 	</children>
 </Root>

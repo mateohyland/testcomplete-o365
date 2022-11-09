@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
-	<data key="{A064BE5A-2D78-4B10-9BE8-C7B519967357}">
-		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="0" kind="0" dateTime="44873.7154050926" objectName="Aliases.WINWORD.formDocument1Word.panelMsodocktop.toolbar.Ribbon.NUIPane.NetUIHWND" objectLeft="1" objectTop="1" objectRight="1024" objectBottom="162" clickPointX="139" clickPointY="20" imageFileName="tcvi95075328198441.png" storageFileName="" needUpdate="False" rectColor="255" />
-		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="1" kind="0" dateTime="44873.7154282407" objectName="Aliases.WINWORD.wndNUIDialog.NetUIHWND.NetUICtrlNotifySink.RICHEDIT60W" objectLeft="36" objectTop="106" objectRight="389" objectBottom="120" clickPointX="-533" clickPointY="-257" imageFileName="tcvi95077812198442.png" storageFileName="" needUpdate="False" rectColor="255" />
-		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="2" kind="0" dateTime="44873.715474537" objectName="Aliases.WINWORD.wndNUIDialog.NetUIHWND" objectLeft="1" objectTop="31" objectRight="459" objectBottom="367" clickPointX="312" clickPointY="337" imageFileName="tcvi95081937198444.png" storageFileName="" needUpdate="False" rectColor="255" />
-	</data>
-</Root>
