@@ -15,105 +15,84 @@
 				<environments activeCloud="SWT" />
 				<children />
 			</testItem>
-			<testItem name="MicrosoftWord" key="{6797E770-5BE9-4023-9D5C-356A25711CD0}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+			<testItem name="Word_Main" key="{660C5AE1-4785-4A65-8135-1B0F1C651574}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<children>
-					<testItem name="LaunchWord" key="{EA2D764F-AAD2-4E28-B4BD-2D36ED6A8DF3}" group="False" parallel="False" enabled="True" testMoniker="KDT\{97254A55-1B50-46D2-8F9C-3014CE987A7E}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+					<testItem name="Word_LaunchApp" key="{71752928-2C98-4E24-8546-27266801605C}" group="False" parallel="False" enabled="True" testMoniker="KDT\{97254A55-1B50-46D2-8F9C-3014CE987A7E}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
 						<environments activeCloud="SWT" />
 						<children />
 					</testItem>
-					<testItem name="Group1" key="{F4F15528-9A18-47D9-8D1F-C17799FE31BC}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+					<testItem name="Word_DocumentCreation" key="{A8B873C8-D9FD-4650-91AF-AE27A54371A1}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
 						<children>
-							<testItem name="CreateDocument" key="{5D661936-1341-403B-B05E-BE358111558E}" group="False" parallel="False" enabled="True" testMoniker="KDT\{B5A5F594-5FA9-4EE8-87AE-B6E62C66421F}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+							<testItem name="Word_CreateDocument" key="{705CFF65-F07C-41E7-9356-B4F8692D7BC4}" group="False" parallel="False" enabled="True" testMoniker="KDT\{B5A5F594-5FA9-4EE8-87AE-B6E62C66421F}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters />
+								<environments activeCloud="CBT" />
+								<children />
+							</testItem>
+							<testItem name="Word_TypeText" key="{8B5A7D2F-F4E0-494F-8BA6-DE60F8D162E3}" group="False" parallel="False" enabled="True" testMoniker="KDT\{15BFB8DB-D0ED-459C-BBAF-C62AB5769978}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 								<testParameters />
 								<environments activeCloud="SWT" />
 								<children />
 							</testItem>
-							<testItem name="TypeText" key="{FC364FC1-CDBF-4638-BE69-C6A9D35EAD8B}" group="False" parallel="False" enabled="True" testMoniker="KDT\{15BFB8DB-D0ED-459C-BBAF-C62AB5769978}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-								<testParameters />
-								<environments activeCloud="SWT" />
-								<children />
-							</testItem>
-							<testItem name="SaveDocument" key="{3C20D240-3228-4F69-BAB4-7D5D27CCED31}" group="False" parallel="False" enabled="True" testMoniker="KDT\{A064BE5A-2D78-4B10-9BE8-C7B519967357}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-								<testParameters />
-								<environments activeCloud="SWT" />
-								<children />
-							</testItem>
-							<testItem name="GoToMenu" key="{F61E8894-C2C3-4007-99CB-55B52E48781C}" group="False" parallel="False" enabled="True" testMoniker="KDT\{CB62380C-9EA9-4F21-82AC-B1B7C1BF8E8D}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+							<testItem name="Word_SaveDocument" key="{F1007C0B-7312-4A14-8C0C-5AFE7BB97B34}" group="False" parallel="False" enabled="True" testMoniker="KDT\{A064BE5A-2D78-4B10-9BE8-C7B519967357}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 								<testParameters />
 								<environments activeCloud="SWT" />
 								<children />
 							</testItem>
 						</children>
 					</testItem>
-					<testItem name="Group2" key="{E06B4AA4-B530-4D99-B318-2D53B2AAF4CA}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+					<testItem name="Word_DocumentFormatConversion" key="{43E75FFA-97BF-4092-B7A3-3DA15D37ED2F}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
 						<children>
-							<testItem name="OpenDocument" key="{493D551C-3676-4198-8EB7-E7405577952F}" group="False" parallel="False" enabled="True" testMoniker="KDT\{3E220050-CBAF-47E8-9050-4F651F926BD7}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+							<testItem name="Word_ConversionBySaving" key="{DD924F9F-1ABE-49F3-807D-974724C067E8}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 								<testParameters />
-								<environments activeCloud="SWT" />
+								<children>
+									<testItem name="Word_OpenDocument" key="{DB5B78BB-F3C1-482D-9DF1-F2C3F5B4269D}" group="False" parallel="False" enabled="True" testMoniker="KDT\{3E220050-CBAF-47E8-9050-4F651F926BD7}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="SWT" />
+										<children />
+									</testItem>
+									<testItem name="Word_SaveAsPDF" key="{91425181-096E-4A30-BE4E-3B136DA2DB6C}" group="False" parallel="False" enabled="True" testMoniker="KDT\{F11BE75A-9870-4C62-8349-4CFC06E7CD0C}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="SWT" />
+										<children />
+									</testItem>
+								</children>
+							</testItem>
+							<testItem name="Word_ReturnToMenu" key="{B23F0062-B114-4DFA-8B91-A7D60F45B4ED}" group="False" parallel="False" enabled="True" testMoniker="KDT\{386EB9C9-0E31-4EDB-A2F5-3D3B346487F9}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters />
+								<environments activeCloud="CBT" />
 								<children />
 							</testItem>
-							<testItem name="SaveAsPDF" key="{63B2D353-A89C-4FDD-8E54-3F0CF922F9A6}" group="False" parallel="False" enabled="True" testMoniker="KDT\{F11BE75A-9870-4C62-8349-4CFC06E7CD0C}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+							<testItem name="Word_ConversionByPrinting" key="{4720DF6A-8726-446E-B090-3B080C9A37E1}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 								<testParameters />
-								<environments activeCloud="SWT" />
-								<children />
+								<children>
+									<testItem name="Word_OpenDocument_2" key="{A6F230CF-CC7F-4835-8DAB-0295F62C8AEF}" group="False" parallel="False" enabled="True" testMoniker="KDT\{3E220050-CBAF-47E8-9050-4F651F926BD7}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="SWT" />
+										<children />
+									</testItem>
+									<testItem name="Word_PrintToPDF" key="{018E46CE-9B02-4C38-9771-6D1141D0377A}" group="False" parallel="False" enabled="True" testMoniker="KDT\{CAFBBFDC-85DE-4C89-9B70-F55CC53CF172}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="SWT" />
+										<children />
+									</testItem>
+								</children>
 							</testItem>
 						</children>
 					</testItem>
-					<testItem name="Group3" key="{609DFE5E-39E1-4288-9B49-110DBC10320F}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-						<testParameters />
-						<children>
-							<testItem name="ReturnToMenu" key="{AD03142A-918E-4ABF-98DE-C45DAF3EABFC}" group="False" parallel="False" enabled="False" testMoniker="KDT\{386EB9C9-0E31-4EDB-A2F5-3D3B346487F9}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-								<testParameters />
-								<environments activeCloud="SWT" />
-								<children />
-							</testItem>
-							<testItem name="GoToMenu_2" key="{9CF99A69-5502-4064-BE79-657C4E6A9525}" group="False" parallel="False" enabled="True" testMoniker="KDT\{CB62380C-9EA9-4F21-82AC-B1B7C1BF8E8D}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-								<testParameters />
-								<environments activeCloud="SWT" />
-								<children />
-							</testItem>
-							<testItem name="OpenDocument_2" key="{EE474D22-D88E-43DE-91FD-57BD4F72F0FE}" group="False" parallel="False" enabled="True" testMoniker="KDT\{3E220050-CBAF-47E8-9050-4F651F926BD7}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-								<testParameters />
-								<environments activeCloud="SWT" />
-								<children />
-							</testItem>
-							<testItem name="PrintToPDF" key="{86CBCCD0-2955-4961-8280-1A486F56C5C8}" group="False" parallel="False" enabled="True" testMoniker="KDT\{CAFBBFDC-85DE-4C89-9B70-F55CC53CF172}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-								<testParameters />
-								<environments activeCloud="SWT" />
-								<children />
-							</testItem>
-						</children>
-					</testItem>
-					<testItem name="CloseWord" key="{612565AE-C54A-4B54-9981-D02665BC34A0}" group="False" parallel="False" enabled="True" testMoniker="KDT\{A984BAF8-20E6-4998-B488-A67E7F1B7DBC}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+					<testItem name="Word_CloseApp" key="{B161FC8B-7EE6-49E9-B14C-7771C09233B6}" group="False" parallel="False" enabled="True" testMoniker="KDT\{A984BAF8-20E6-4998-B488-A67E7F1B7DBC}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
 						<environments activeCloud="SWT" />
 						<children />
 					</testItem>
 				</children>
 			</testItem>
-			<testItem name="Outlook" key="{388F0910-B467-47E6-9F44-ACA744A2FEE2}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+			<testItem name="Outlook_Main" key="{1B8DB686-5BD2-481A-AAF9-9C48CDC069A3}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
-				<children>
-					<testItem name="LaunchOutlook" key="{0D959E43-D329-49AC-9507-6788AB31876F}" group="False" parallel="False" enabled="True" testMoniker="KDT\{6D1E881E-EED7-48F3-ADFB-8A4480D8A75D}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-						<testParameters />
-						<environments activeCloud="SWT" />
-						<children />
-					</testItem>
-					<testItem name="SendEmail" key="{337884D7-260A-49E5-9253-75911FF211F9}" group="False" parallel="False" enabled="True" testMoniker="KDT\{CAA8E6DE-9857-477E-A04F-3A44EE0AD8F8}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-						<testParameters />
-						<environments activeCloud="SWT" />
-						<children />
-					</testItem>
-					<testItem name="CloseOutlook" key="{C66362CD-CFFF-489B-B923-9E490E160A51}" group="False" parallel="False" enabled="True" testMoniker="KDT\{49896860-FF62-4F3D-967D-ABAE485F6A8A}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-						<testParameters />
-						<environments activeCloud="SWT" />
-						<children />
-					</testItem>
-				</children>
+				<children />
 			</testItem>
 		</children>
 	</testItems>
