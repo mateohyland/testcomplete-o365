@@ -45,7 +45,7 @@
 			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
 				<Data Description="Enters text in the text editor." Action="SetText">
 					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-						<Parameter Name="Text" DefVarType="8" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="4" VariableName="emailSubject" />
+						<Parameter Name="Text" DefVarType="8" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="2" VariableName="emailSubject" />
 					</Parameters>
 					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.OUTLOOK.wndrctrl_renwnd322.AfxWndW.AfxWndW.page32770.editSubject;" />
 				</Data>
@@ -53,7 +53,7 @@
 			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
 				<Data Description="Enters %p1 in the &apos;%n&apos; object." Action="Keys">
 					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-						<Parameter Name="Keys" DefVarType="8" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="4" VariableName="emailContent" />
+						<Parameter Name="Keys" DefVarType="8" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="2" VariableName="emailContent" />
 					</Parameters>
 					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.OUTLOOK.wndrctrl_renwnd322.AfxWndW.AfxWndW.page32770.AfxWndA.panel.panelMessage;" />
 				</Data>
@@ -69,12 +69,6 @@
 		<Items>
 			<Variable Name="emailRecipient" Type="String" Local="False">
 				<DefValue StrValue="mateo.hyland@qualitestgroup.com" />
-			</Variable>
-			<Variable Name="emailSubject" Type="String" Local="False">
-				<DefValue StrValue="Test Email - TestComplete" />
-			</Variable>
-			<Variable Name="emailContent" Type="String" Local="False">
-				<DefValue StrValue="This is an automated test email sent via TestComplete." />
 			</Variable>
 		</Items>
 	</Variables>
