@@ -18,6 +18,5 @@
 			<child name="CloseOutlook" key="{49896860-FF62-4F3D-967D-ABAE485F6A8A}" path="CloseOutlook.tcKDTest" />
 			<child name="SendEmail" key="{CAA8E6DE-9857-477E-A04F-3A44EE0AD8F8}" path="SendEmail.tcKDTest" />
 		</folder>
-		<child name="Test1" key="{C8A495FD-39AE-4A98-A4F9-D93BAAC4166C}" path="Test1.tcKDTest" />
 	</children>
 </Root>
