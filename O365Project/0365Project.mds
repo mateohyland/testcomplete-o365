@@ -139,6 +139,18 @@
 				<Variable Name="PDF_PRINTED_DOCUMENT_NAME" Type="String" Local="True">
 					<DefValue StrValue="PrintedPDFDocument" />
 				</Variable>
+				<Variable Name="emailSubject" Type="String" Local="False">
+					<DefValue StrValue="Test Email - TestComplete" />
+				</Variable>
+				<Variable Name="emailContent" Type="String" Local="False">
+					<DefValue StrValue="This is an automated test email sent via TestComplete." />
+				</Variable>
+				<Variable Name="EMAIL_SUBJECT" Type="String" Local="True">
+					<DefValue StrValue="Test Email - TestComplete" />
+				</Variable>
+				<Variable Name="EMAIL_CONTENT" Type="String" Local="True">
+					<DefValue StrValue="This is an automated test email sent via TestComplete." />
+				</Variable>
 			</Items>
 		</data>
 	</variables>
