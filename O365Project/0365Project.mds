@@ -53,7 +53,7 @@
 							</testItem>
 							<testItem name="SaveAsPDF" key="{63B2D353-A89C-4FDD-8E54-3F0CF922F9A6}" group="False" parallel="False" enabled="True" testMoniker="KDT\{F11BE75A-9870-4C62-8349-4CFC06E7CD0C}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 								<testParameters />
-								<environments activeCloud="CBT" />
+								<environments activeCloud="SWT" />
 								<children />
 							</testItem>
 						</children>
