@@ -12,6 +12,7 @@
 			<child name="Word_TypeText" key="{15BFB8DB-D0ED-459C-BBAF-C62AB5769978}" path="Word_TypeText.tcKDTest" />
 			<child name="Word_SaveAsPDF" key="{F11BE75A-9870-4C62-8349-4CFC06E7CD0C}" path="Word_SaveAsPDF.tcKDTest" />
 			<child name="Word_ReturnToMenu" key="{386EB9C9-0E31-4EDB-A2F5-3D3B346487F9}" path="Word_ReturnToMenu.tcKDTest" />
+			<child name="Word_All" key="{A92D12FD-25E6-4249-9C76-E342697BCEB4}" path="Word_All.tcKDTest" />
 		</folder>
 		<folder name="Outlook">
 			<child name="Outlook_LaunchApp" key="{6D1E881E-EED7-48F3-ADFB-8A4480D8A75D}" path="Outlook_LaunchApp.tcKDTest" />

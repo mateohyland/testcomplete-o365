@@ -28,22 +28,22 @@
 						<children>
 							<testItem name="Word_CreateDocument" key="{705CFF65-F07C-41E7-9356-B4F8692D7BC4}" group="False" parallel="False" enabled="True" testMoniker="KDT\{B5A5F594-5FA9-4EE8-87AE-B6E62C66421F}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 								<testParameters />
-								<environments activeCloud="CBT" />
+								<environments activeCloud="SWT" />
 								<children />
 							</testItem>
-							<testItem name="Word_TypeText" key="{8B5A7D2F-F4E0-494F-8BA6-DE60F8D162E3}" group="False" parallel="False" enabled="True" testMoniker="KDT\{15BFB8DB-D0ED-459C-BBAF-C62AB5769978}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+							<testItem name="Word_TypeText" key="{8B5A7D2F-F4E0-494F-8BA6-DE60F8D162E3}" group="False" parallel="False" enabled="False" testMoniker="KDT\{15BFB8DB-D0ED-459C-BBAF-C62AB5769978}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 								<testParameters />
 								<environments activeCloud="SWT" />
 								<children />
 							</testItem>
-							<testItem name="Word_SaveDocument" key="{F1007C0B-7312-4A14-8C0C-5AFE7BB97B34}" group="False" parallel="False" enabled="True" testMoniker="KDT\{A064BE5A-2D78-4B10-9BE8-C7B519967357}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+							<testItem name="Word_SaveDocument" key="{F1007C0B-7312-4A14-8C0C-5AFE7BB97B34}" group="False" parallel="False" enabled="False" testMoniker="KDT\{A064BE5A-2D78-4B10-9BE8-C7B519967357}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 								<testParameters />
 								<environments activeCloud="SWT" />
 								<children />
 							</testItem>
 						</children>
 					</testItem>
-					<testItem name="Word_DocumentFormatConversion" key="{43E75FFA-97BF-4092-B7A3-3DA15D37ED2F}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+					<testItem name="Word_DocumentFormatConversion" key="{43E75FFA-97BF-4092-B7A3-3DA15D37ED2F}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
 						<children>
 							<testItem name="Word_ConversionBySaving" key="{DD924F9F-1ABE-49F3-807D-974724C067E8}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
@@ -83,16 +83,32 @@
 							</testItem>
 						</children>
 					</testItem>
-					<testItem name="Word_CloseApp" key="{B161FC8B-7EE6-49E9-B14C-7771C09233B6}" group="False" parallel="False" enabled="True" testMoniker="KDT\{A984BAF8-20E6-4998-B488-A67E7F1B7DBC}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+					<testItem name="Word_CloseApp" key="{B161FC8B-7EE6-49E9-B14C-7771C09233B6}" group="False" parallel="False" enabled="False" testMoniker="KDT\{A984BAF8-20E6-4998-B488-A67E7F1B7DBC}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
 						<environments activeCloud="SWT" />
 						<children />
 					</testItem>
 				</children>
 			</testItem>
-			<testItem name="Outlook_Main" key="{1B8DB686-5BD2-481A-AAF9-9C48CDC069A3}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+			<testItem name="Outlook_Main" key="{1B8DB686-5BD2-481A-AAF9-9C48CDC069A3}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
-				<children />
+				<children>
+					<testItem name="Outlook_LaunchApp" key="{2486E4CD-1A15-49E6-ACF7-9F505941C412}" group="False" parallel="False" enabled="True" testMoniker="KDT\{6D1E881E-EED7-48F3-ADFB-8A4480D8A75D}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<environments activeCloud="CBT" />
+						<children />
+					</testItem>
+					<testItem name="Outlook_SendEmail" key="{5E6C28CC-47B9-4F33-8668-4EA751AC273C}" group="False" parallel="False" enabled="True" testMoniker="KDT\{CAA8E6DE-9857-477E-A04F-3A44EE0AD8F8}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<environments activeCloud="CBT" />
+						<children />
+					</testItem>
+					<testItem name="Outlook_CloseApp" key="{0FDF0BB8-A882-4081-871F-6AAA3B4ADD5E}" group="False" parallel="False" enabled="True" testMoniker="KDT\{49896860-FF62-4F3D-967D-ABAE485F6A8A}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<environments activeCloud="CBT" />
+						<children />
+					</testItem>
+				</children>
 			</testItem>
 		</children>
 	</testItems>

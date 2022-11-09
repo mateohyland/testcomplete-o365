@@ -94,7 +94,7 @@
 													</Property>
 												</Properties>
 												<Children>
-													<Child Name="panelMicrosoftWordDocument" Key="{7DA73372-D0F4-457D-9F58-0A4B89621667}">
+													<Child Name="blankDocumentImage" Key="{7DA73372-D0F4-457D-9F58-0A4B89621667}" Description="Image of a blank Word document body.">
 														<Image FileName="-71116047" Left="1" Top="162" Right="1007" Bottom="502" />
 														<TypeInfo Item0="{5A2FD848-433E-4732-8F82-B6DAC60B8DD1}" />
 														<Properties>
@@ -321,7 +321,7 @@
 															</Child>
 														</Children>
 													</Child>
-													<Child Name="pane" Key="{BABEE31C-D612-4702-B254-705B53F66413}">
+													<Child Name="wordHomePanel" Key="{BABEE31C-D612-4702-B254-705B53F66413}" Description="This is the Microsoft Word Desktop application lateral Home Panel, displayed when the application is opened.">
 														<Image FileName="-15361525" Left="1" Top="38" Right="141" Bottom="524" />
 														<Properties>
 															<Property Name="ObjectType">
@@ -362,6 +362,23 @@
 																				<Value Value="1" Type="0" />
 																			</Property>
 																		</Properties>
+																		<Children>
+																			<Child Name="WordHomeIcon" Key="{3DB12095-B1D7-4D18-8009-565513026BD1}" ExtendedFind="True">
+																				<Image FileName="1020070868" Left="1" Top="83" Right="141" Bottom="123" />
+																				<TypeInfo Item0="{4D4557C7-DE1A-4A9E-951A-55586A24E413}" />
+																				<Properties>
+																					<Property Name="ObjectType">
+																						<Value Value="ListItem" />
+																					</Property>
+																					<Property Name="Caption">
+																						<Value Value="Home" />
+																					</Property>
+																					<Property Name="ObjectGroupIndex">
+																						<Value Value="2" Type="0" />
+																					</Property>
+																				</Properties>
+																			</Child>
+																		</Children>
 																	</Child>
 																</Children>
 															</Child>
@@ -489,6 +506,354 @@
 																			</Child>
 																		</Children>
 																	</Child>
+																	<Child Name="paneNew" Key="{AC61BF13-647D-4E2D-B935-46E21C52C14E}">
+																		<Image FileName="1849885518" Left="141" Top="38" Right="1024" Bottom="524" />
+																		<Properties>
+																			<Property Name="ObjectType">
+																				<Value Value="Pane" />
+																			</Property>
+																			<Property Name="Caption">
+																				<Value Value="New" />
+																			</Property>
+																			<Property Name="ObjectGroupIndex">
+																				<Value Value="1" Type="0" />
+																			</Property>
+																		</Properties>
+																		<Children>
+																			<Child Name="groupingNew" Key="{475E9E92-2911-4EB5-B069-46169529078D}">
+																				<Image FileName="1849885518" Left="181" Top="108" Right="1024" Bottom="524" />
+																				<Properties>
+																					<Property Name="ObjectType">
+																						<Value Value="Grouping" />
+																					</Property>
+																					<Property Name="Caption">
+																						<Value Value="New" />
+																					</Property>
+																					<Property Name="ObjectGroupIndex">
+																						<Value Value="1" Type="0" />
+																					</Property>
+																				</Properties>
+																				<Children>
+																					<Child Name="client" Key="{1AC308B3-1EC4-46F7-98E9-C2F9BAAD0921}">
+																						<Image FileName="1849885518" Left="181" Top="108" Right="1007" Bottom="524" />
+																						<Properties>
+																							<Property Name="ObjectType">
+																								<Value Value="Client" />
+																							</Property>
+																							<Property Name="ControlIndex">
+																								<Value Value="0" Type="0" />
+																							</Property>
+																							<Property Name="ObjectGroupIndex">
+																								<Value Value="1" Type="0" />
+																							</Property>
+																						</Properties>
+																						<Children>
+																							<Child Name="groupingNew" Key="{FEB2E171-DE83-475D-8755-27F6CDD7487B}">
+																								<Image FileName="1849885518" Left="181" Top="108" Right="967" Bottom="3603" />
+																								<Properties>
+																									<Property Name="ObjectType">
+																										<Value Value="Grouping" />
+																									</Property>
+																									<Property Name="Caption">
+																										<Value Value="New" />
+																									</Property>
+																									<Property Name="ObjectGroupIndex">
+																										<Value Value="1" Type="0" />
+																									</Property>
+																								</Properties>
+																								<Children>
+																									<Child Name="list" Key="{3AD55208-A715-4BBE-AD0A-F0A54F0FCF28}">
+																										<Image FileName="1849885518" Left="181" Top="108" Right="965" Bottom="384" />
+																										<Properties>
+																											<Property Name="ObjectType">
+																												<Value Value="List" />
+																											</Property>
+																											<Property Name="ControlIndex">
+																												<Value Value="0" Type="0" />
+																											</Property>
+																											<Property Name="ObjectGroupIndex">
+																												<Value Value="1" Type="0" />
+																											</Property>
+																										</Properties>
+																									</Child>
+																								</Children>
+																							</Child>
+																						</Children>
+																					</Child>
+																				</Children>
+																			</Child>
+																		</Children>
+																	</Child>
+																	<Child Name="paneHome" Key="{50066F44-631A-48D8-B8F1-C3CB783FA74E}">
+																		<Image FileName="-1411123048" Left="141" Top="38" Right="1024" Bottom="524" />
+																		<Properties>
+																			<Property Name="ObjectType">
+																				<Value Value="Pane" />
+																			</Property>
+																			<Property Name="Caption">
+																				<Value Value="Home" />
+																			</Property>
+																			<Property Name="ObjectGroupIndex">
+																				<Value Value="1" Type="0" />
+																			</Property>
+																		</Properties>
+																		<Children>
+																			<Child Name="groupingHome" Key="{935E2DF7-0FB7-43D9-AEA1-6D8D03C2A2C3}">
+																				<Image FileName="-1411123048" Left="141" Top="84" Right="1024" Bottom="524" />
+																				<Properties>
+																					<Property Name="ObjectType">
+																						<Value Value="Grouping" />
+																					</Property>
+																					<Property Name="Caption">
+																						<Value Value="Home" />
+																					</Property>
+																					<Property Name="ObjectGroupIndex">
+																						<Value Value="1" Type="0" />
+																					</Property>
+																				</Properties>
+																				<Children>
+																					<Child Name="client" Key="{6C06A5F2-4A5F-4A32-8BC7-4627D9E60903}">
+																						<Image FileName="-1411123048" Left="141" Top="84" Right="1007" Bottom="524" />
+																						<Properties>
+																							<Property Name="ObjectType">
+																								<Value Value="Client" />
+																							</Property>
+																							<Property Name="ControlIndex">
+																								<Value Value="0" Type="0" />
+																							</Property>
+																							<Property Name="ObjectGroupIndex">
+																								<Value Value="1" Type="0" />
+																							</Property>
+																						</Properties>
+																						<Children>
+																							<Child Name="groupingNew" Key="{0E5A4F1F-3828-48ED-9362-D18F0D968E64}">
+																								<Image FileName="-1411123048" Left="141" Top="84" Right="967" Bottom="344" />
+																								<Properties>
+																									<Property Name="ObjectType">
+																										<Value Value="Grouping" />
+																									</Property>
+																									<Property Name="Caption">
+																										<Value Value="New" />
+																									</Property>
+																									<Property Name="ObjectGroupIndex">
+																										<Value Value="1" Type="0" />
+																									</Property>
+																								</Properties>
+																								<Children>
+																									<Child Name="list" Key="{21C4468C-A128-4A57-8979-1A0EF811CD23}">
+																										<Image FileName="-1411123048" Left="181" Top="136" Right="967" Bottom="288" />
+																										<Properties>
+																											<Property Name="ObjectType">
+																												<Value Value="List" />
+																											</Property>
+																											<Property Name="ControlIndex">
+																												<Value Value="2" Type="0" />
+																											</Property>
+																											<Property Name="ObjectGroupIndex">
+																												<Value Value="1" Type="0" />
+																											</Property>
+																										</Properties>
+																										<Children>
+																											<Child Name="client" Key="{1FEA9FD5-8F5C-4F2D-897D-A9349A66CD5E}">
+																												<Image FileName="1715920948" Left="181" Top="136" Right="967" Bottom="288" />
+																												<TypeInfo Item0="{C925096C-CAF4-4450-8CC7-E9FCE7B7EA91}" />
+																												<Properties>
+																													<Property Name="ObjectType">
+																														<Value Value="Client" />
+																													</Property>
+																													<Property Name="ControlIndex">
+																														<Value Value="0" Type="0" />
+																													</Property>
+																													<Property Name="ObjectGroupIndex">
+																														<Value Value="1" Type="0" />
+																													</Property>
+																												</Properties>
+																												<Children>
+																													<Child Name="client" Key="{D15BEE0E-03C8-4D10-90EF-81AAD5476587}">
+																														<Image FileName="1715920948" Left="181" Top="136" Right="967" Bottom="288" />
+																														<TypeInfo Item0="{C925096C-CAF4-4450-8CC7-E9FCE7B7EA91}" />
+																														<Properties>
+																															<Property Name="ObjectType">
+																																<Value Value="Client" />
+																															</Property>
+																															<Property Name="ControlIndex">
+																																<Value Value="0" Type="0" />
+																															</Property>
+																															<Property Name="ObjectGroupIndex">
+																																<Value Value="1" Type="0" />
+																															</Property>
+																														</Properties>
+																														<Children>
+																															<Child Name="listitemBlankDocument" Key="{EA2EC45E-91CC-47F3-AE43-C11C03623FCD}">
+																																<Image FileName="1715920948" Left="181" Top="136" Right="361" Bottom="288" />
+																																<TypeInfo Item0="{4D4557C7-DE1A-4A9E-951A-55586A24E413}" />
+																																<Properties>
+																																	<Property Name="ObjectType">
+																																		<Value Value="ListItem" />
+																																	</Property>
+																																	<Property Name="Caption">
+																																		<Value Value="Blank document" />
+																																	</Property>
+																																	<Property Name="ObjectGroupIndex">
+																																		<Value Value="1" Type="0" />
+																																	</Property>
+																																</Properties>
+																															</Child>
+																														</Children>
+																													</Child>
+																												</Children>
+																											</Child>
+																										</Children>
+																									</Child>
+																								</Children>
+																							</Child>
+																						</Children>
+																					</Child>
+																				</Children>
+																			</Child>
+																		</Children>
+																	</Child>
+																	<Child Name="paneSaveAs" Key="{13A3CD32-3616-4EB8-9BDF-5D4870C09DEA}">
+																		<Image FileName="30912248" Left="141" Top="38" Right="1024" Bottom="524" />
+																		<Properties>
+																			<Property Name="ObjectType">
+																				<Value Value="Pane" />
+																			</Property>
+																			<Property Name="Caption">
+																				<Value Value="Save As" />
+																			</Property>
+																			<Property Name="ObjectGroupIndex">
+																				<Value Value="1" Type="0" />
+																			</Property>
+																		</Properties>
+																		<Children>
+																			<Child Name="grouping" Key="{200449F7-F755-4F3C-B409-E9613EA9715B}">
+																				<Image FileName="30912248" Left="528" Top="112" Right="983" Bottom="502" />
+																				<Properties>
+																					<Property Name="ObjectType">
+																						<Value Value="Grouping" />
+																					</Property>
+																					<Property Name="ControlIndex">
+																						<Value Value="2" Type="0" />
+																					</Property>
+																					<Property Name="ObjectGroupIndex">
+																						<Value Value="1" Type="0" />
+																					</Property>
+																				</Properties>
+																				<Children>
+																					<Child Name="client" Key="{0DCA726A-84BB-42C5-BC7D-CE65962C488E}">
+																						<Image FileName="30912248" Left="533" Top="112" Right="968" Bottom="500" />
+																						<Properties>
+																							<Property Name="ObjectType">
+																								<Value Value="Client" />
+																							</Property>
+																							<Property Name="ControlIndex">
+																								<Value Value="0" Type="0" />
+																							</Property>
+																							<Property Name="ObjectGroupIndex">
+																								<Value Value="1" Type="0" />
+																							</Property>
+																						</Properties>
+																						<Children>
+																							<Child Name="pane" Key="{BDCC125B-FDD6-43A5-AE07-F1ED05CB4FA9}">
+																								<Image FileName="30912248" Left="533" Top="185" Right="968" Bottom="447" />
+																								<Properties>
+																									<Property Name="ObjectType">
+																										<Value Value="Pane" />
+																									</Property>
+																									<Property Name="ControlIndex">
+																										<Value Value="2" Type="0" />
+																									</Property>
+																									<Property Name="ObjectGroupIndex">
+																										<Value Value="1" Type="0" />
+																									</Property>
+																								</Properties>
+																								<Children>
+																									<Child Name="client" Key="{8FC7968B-F8A4-4DE1-ADF2-54DAC40442D6}">
+																										<Image FileName="30912248" Left="533" Top="185" Right="968" Bottom="447" />
+																										<Properties>
+																											<Property Name="ObjectType">
+																												<Value Value="Client" />
+																											</Property>
+																											<Property Name="ControlIndex">
+																												<Value Value="0" Type="0" />
+																											</Property>
+																											<Property Name="ObjectGroupIndex">
+																												<Value Value="1" Type="0" />
+																											</Property>
+																										</Properties>
+																										<Children>
+																											<Child Name="panelDocuments" Key="{1EF04F02-BE41-4230-994F-C1D4A5AA1D2A}">
+																												<Image FileName="30912248" Left="533" Top="218" Right="968" Bottom="275" />
+																												<TypeInfo Item0="{FD9AE3F6-E4BD-4127-ABFF-B9C8AAD0719E}" />
+																												<Properties>
+																													<Property Name="ObjectType">
+																														<Value Value="Panel" />
+																													</Property>
+																													<Property Name="Caption">
+																														<Value Value="Documents" />
+																													</Property>
+																													<Property Name="ObjectGroupIndex">
+																														<Value Value="1" Type="0" />
+																													</Property>
+																												</Properties>
+																											</Child>
+																										</Children>
+																									</Child>
+																								</Children>
+																							</Child>
+																						</Children>
+																					</Child>
+																				</Children>
+																			</Child>
+																			<Child Name="groupingPickAFolder" Key="{83962E47-C5A4-45CB-A044-4D2D67D27021}">
+																				<Image FileName="-1420249861" Left="528" Top="112" Right="983" Bottom="253" />
+																				<Properties>
+																					<Property Name="ObjectType">
+																						<Value Value="Grouping" />
+																					</Property>
+																					<Property Name="Caption">
+																						<Value Value="Pick a Folder" />
+																					</Property>
+																					<Property Name="ObjectGroupIndex">
+																						<Value Value="1" Type="0" />
+																					</Property>
+																				</Properties>
+																				<Children>
+																					<Child Name="editEnterFileNameHere" Key="{BCC070B5-9CE5-4507-987B-6A8618B09FD3}">
+																						<Image FileName="-1420249861" Left="538" Top="145" Right="872" Bottom="162" />
+																						<TypeInfo Item0="{FD9AE3F6-E4BD-4127-ABFF-B9C8AAD0719E}" />
+																						<Properties>
+																							<Property Name="ObjectType">
+																								<Value Value="Edit" />
+																							</Property>
+																							<Property Name="Caption">
+																								<Value Value="Enter file name here" />
+																							</Property>
+																							<Property Name="ObjectGroupIndex">
+																								<Value Value="1" Type="0" />
+																							</Property>
+																						</Properties>
+																					</Child>
+																					<Child Name="buttonSave" Key="{593CCF38-B191-4D76-8B1C-717B2C11BAF0}">
+																						<Image FileName="647749051" Left="886" Top="162" Right="968" Bottom="190" />
+																						<TypeInfo Item0="{FD9AE3F6-E4BD-4127-ABFF-B9C8AAD0719E}" />
+																						<Properties>
+																							<Property Name="ObjectType">
+																								<Value Value="Button" />
+																							</Property>
+																							<Property Name="Caption">
+																								<Value Value="Save" />
+																							</Property>
+																							<Property Name="ObjectGroupIndex">
+																								<Value Value="1" Type="0" />
+																							</Property>
+																						</Properties>
+																					</Child>
+																				</Children>
+																			</Child>
+																		</Children>
+																	</Child>
 																</Children>
 															</Child>
 														</Children>
@@ -566,6 +931,23 @@
 												<Value Value="NetUIHWND" />
 											</Property>
 										</Properties>
+										<Children>
+											<Child Name="client" Key="{28C2A8BF-D562-451F-A51C-392F49765D8A}">
+												<Image FileName="-103702231" Left="2" Top="2" Right="96" Bottom="30" />
+												<TypeInfo Item0="{FD9AE3F6-E4BD-4127-ABFF-B9C8AAD0719E}" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value Value="Client" />
+													</Property>
+													<Property Name="ControlIndex">
+														<Value Value="0" Type="0" />
+													</Property>
+													<Property Name="ObjectGroupIndex">
+														<Value Value="1" Type="0" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
 									</Child>
 								</Children>
 							</Child>
@@ -1116,9 +1498,7 @@
 			</Child>
 			<Child Name="formDocument1Word" Owner="{7221E9A3-D500-4027-BB7B-72AB374D652B}">
 				<Child Name="panel" Owner="{78A5248E-8C8A-40F0-B210-414E620D418E}">
-					<Child Name="panelDocument1" Owner="{2CBC72E0-50CB-40F1-B0C3-E4609C27A50C}">
-						<Child Name="panelMicrosoftWordDocument" Owner="{7DA73372-D0F4-457D-9F58-0A4B89621667}" />
-					</Child>
+					<Child Name="panelDocument1" Owner="{2CBC72E0-50CB-40F1-B0C3-E4609C27A50C}" />
 					<Child Name="panelDocument2" Owner="{7E367C1C-962A-4E23-881E-D3C7FC207EB7}">
 						<Child Name="panelMicrosoftWordDocument" Owner="{C6F73D92-FA30-4889-A711-740118C7FF14}" />
 					</Child>
@@ -1145,7 +1525,7 @@
 						<Child Name="NetUICtrlNotifySink" Owner="{C0A94D9F-EAB3-4E55-9091-8EDE9E680460}">
 							<Child Name="RICHEDIT60W" Owner="{127B998B-1E2C-4B76-92B0-1A49517E16FF}" />
 						</Child>
-						<Child Name="pane" Owner="{BABEE31C-D612-4702-B254-705B53F66413}">
+						<Child Name="wordHomePanel" Owner="{BABEE31C-D612-4702-B254-705B53F66413}">
 							<Child Name="client" Owner="{994654FB-7110-43A2-B9A4-8BFD40B434A3}">
 								<Child Name="listFile" Owner="{A576B82D-DFE7-485C-97D6-C88ACEE6631A}" />
 							</Child>
@@ -1162,6 +1542,45 @@
 										<Child Name="buttonPrint" Owner="{0B305F33-3C3C-4F82-BCA0-615ED9DFBEBB}" />
 									</Child>
 								</Child>
+								<Child Name="paneNew" Owner="{AC61BF13-647D-4E2D-B935-46E21C52C14E}">
+									<Child Name="groupingNew" Owner="{475E9E92-2911-4EB5-B069-46169529078D}">
+										<Child Name="client" Owner="{1AC308B3-1EC4-46F7-98E9-C2F9BAAD0921}">
+											<Child Name="groupingNew" Owner="{FEB2E171-DE83-475D-8755-27F6CDD7487B}">
+												<Child Name="list" Owner="{3AD55208-A715-4BBE-AD0A-F0A54F0FCF28}" />
+											</Child>
+										</Child>
+									</Child>
+								</Child>
+								<Child Name="paneHome" Owner="{50066F44-631A-48D8-B8F1-C3CB783FA74E}">
+									<Child Name="groupingHome" Owner="{935E2DF7-0FB7-43D9-AEA1-6D8D03C2A2C3}">
+										<Child Name="client" Owner="{6C06A5F2-4A5F-4A32-8BC7-4627D9E60903}">
+											<Child Name="groupingNew" Owner="{0E5A4F1F-3828-48ED-9362-D18F0D968E64}">
+												<Child Name="list" Owner="{21C4468C-A128-4A57-8979-1A0EF811CD23}">
+													<Child Name="client" Owner="{1FEA9FD5-8F5C-4F2D-897D-A9349A66CD5E}">
+														<Child Name="client" Owner="{D15BEE0E-03C8-4D10-90EF-81AAD5476587}">
+															<Child Name="listitemBlankDocument" Owner="{EA2EC45E-91CC-47F3-AE43-C11C03623FCD}" />
+														</Child>
+													</Child>
+												</Child>
+											</Child>
+										</Child>
+									</Child>
+								</Child>
+								<Child Name="paneSaveAs" Owner="{13A3CD32-3616-4EB8-9BDF-5D4870C09DEA}">
+									<Child Name="grouping" Owner="{200449F7-F755-4F3C-B409-E9613EA9715B}">
+										<Child Name="client" Owner="{0DCA726A-84BB-42C5-BC7D-CE65962C488E}">
+											<Child Name="pane" Owner="{BDCC125B-FDD6-43A5-AE07-F1ED05CB4FA9}">
+												<Child Name="client" Owner="{8FC7968B-F8A4-4DE1-ADF2-54DAC40442D6}">
+													<Child Name="panelDocuments" Owner="{1EF04F02-BE41-4230-994F-C1D4A5AA1D2A}" />
+												</Child>
+											</Child>
+										</Child>
+									</Child>
+									<Child Name="groupingPickAFolder" Owner="{83962E47-C5A4-45CB-A044-4D2D67D27021}">
+										<Child Name="editEnterFileNameHere" Owner="{BCC070B5-9CE5-4507-987B-6A8618B09FD3}" />
+										<Child Name="buttonSave" Owner="{593CCF38-B191-4D76-8B1C-717B2C11BAF0}" />
+									</Child>
+								</Child>
 							</Child>
 						</Child>
 					</Child>
@@ -1176,7 +1595,9 @@
 			</Child>
 			<Child Name="wndbosa_sdm_msword" Owner="{A4DAF1CA-3F36-4A86-90FA-9B56FFEB46A6}" />
 			<Child Name="wndNetUIToolWindow" Owner="{E40F6905-C5E7-44CB-9370-2E4E239BB0CA}">
-				<Child Name="NetUIHWND" Owner="{4370E13F-56A7-44F0-AA8E-688151F75CE5}" />
+				<Child Name="NetUIHWND" Owner="{4370E13F-56A7-44F0-AA8E-688151F75CE5}">
+					<Child Name="client" Owner="{28C2A8BF-D562-451F-A51C-392F49765D8A}" />
+				</Child>
 			</Child>
 			<Child Name="dlgGuardarImpresi_nComo" Owner="{2484C82C-CE8A-4BE0-A8C5-AF4955483CAC}">
 				<Child Name="btnGuardar" Owner="{795276D2-FF47-4DC3-8EB8-E79A133A70E7}" />
@@ -1214,6 +1635,7 @@
 				</Child>
 				<Child Name="buttonSave" Owner="{FDBF6A29-27A2-4216-A94A-6A1E60124A9E}" />
 			</Child>
+			<Child Name="WordHomeIcon" Owner="{3DB12095-B1D7-4D18-8009-565513026BD1}" />
 		</Child>
 		<Child Name="OUTLOOK" Owner="{5F38E5BD-0EFB-4A21-988A-86232AFCFCF9}">
 			<Child Name="wndrctrl_renwnd32" Owner="{8A2429A1-425E-42A1-8EBE-5E3C1F382D85}">
@@ -1245,5 +1667,11 @@
 				</Child>
 			</Child>
 		</Child>
+		<Child Name="wordHomePanel" Owner="{BABEE31C-D612-4702-B254-705B53F66413}">
+			<Child Name="client" Owner="{994654FB-7110-43A2-B9A4-8BFD40B434A3}">
+				<Child Name="listFile" Owner="{A576B82D-DFE7-485C-97D6-C88ACEE6631A}" />
+			</Child>
+		</Child>
+		<Child Name="blankDocumentImage" Owner="{7DA73372-D0F4-457D-9F58-0A4B89621667}" />
 	</LogicalNodes>
 </Root>
